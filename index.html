@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/f2a8c8693f.js" crossorigin="anonymous">
+
+</script>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-image:url("https://giffiles.alphacoders.com/214/214332.gif");
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #352a2e;
+  text-align: center;
+  padding: 10px;
+  padding-top:0px;
+}
+    
+.topnav div {
+  width:175px;  
+  float:left;
+  border: 3px solid #7597de;  
+  margin: 8px;
+  margin-top: 22px;
+  padding: 7px;
+}
+    
+.topnav div1 {
+  width:72%;  
+  float:left;
+  margin: 8px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+} 
+
+    
+.codingnav {
+  overflow: hidden;
+  background-color: #fc94d0;
+  text-align: center;
+  padding: 15px
+}
+
+.overall {
+  border: 5px solid #352a2e;
+  background-color: #fdeeec;    
+  text-align: center;
+  margin: 7px;
+  padding: 0px
+}
+    
+    
+div.bginfo {
+  width:100%;
+  overflow:auto;
+}
+
+div.bginfo div {
+  width:42%;  
+  float:left;
+  border: 3px solid #fc94d0;
+  background-color: white;    
+  text-align: left;
+  margin: 8px;
+  padding: 25px;
+  padding-top: 5px
+}
+    
+div.sports {
+  overflow:auto;
+  border: 3px solid #7597de;
+  background-color: white;    
+  text-align: left;
+  margin: 8px;
+  margin-top: 0px;
+  padding: 25px;
+  padding-top: 5px
+}
+    
+div.interests {
+  overflow:auto;
+  border: 3px solid #fc94d0;
+  background-color: white;    
+  text-align: left;
+  margin: 8px;
+  padding: 25px;
+  padding-top: 5px
+}
+    
+    
+p {
+  color: #7597de;
+  text-align: center;
+  font-family: serif;
+  font-size: 20px
+}
+       
+p2 {
+  color: #352a2e;
+  text-align: center;
+  font-family: serif;
+  font-size: 20px;
+}   
+    
+p3 {
+  color: #352a2e;
+  font-family: serif;
+  font-size: 20px;
+  line-height: 30px
+}  
+
+
+</style>
+</head>
+
+    
+<body>
+
+<div class="header">
+<img src="https://raw.githubusercontent.com/AnastasiiaShurma/about/refs/heads/main/header.png" alt="header" style="width:100%" >  
+</div>
+
+<div class="topnav">
+    
+<div>
+<img src="https://raw.githubusercontent.com/AnastasiiaShurma/about/refs/heads/main/selfie.jpeg" style="width:100%">
+</div>
+
+    
+<div1>
+  <p style="font-size: 25px; text-align: left">Hi. I'm Anastasiia, a motivated 14-year-old Senior School student in Munich International School. Behold is my personal resume website that I created using different HTML, CSS, and Javascript techniques as a coding project. This page is dedicated to introducing my story, hobbies and interests, skills and experiences, computer abilities, and background information through my resume sheet. <i class="fas fa-circle-user" style="font-size:22px;"></i></p>
+</div1>
+</div>
+    
+    
+    
+    
+<div class="overall">
+
+    
+
+<div class="bginfo">
+
+  <div>
+    <h1 class="aldrich-regular" style="font-size: 35px; line-height: 32px">Briefly about my story <i class="fas fa-book" style="font-size:30px;"></i></h1>
+    <p3>I was born on 2nd August 2010 in Donetsk, Ukraine, and grew up in Zaporizhzhia and Kyiv. In 2022, I moved to Starnberg, Germany, with my family, where I started to attend Munich International School to, for the first time in my life, study in English. I spent another learning year in an IB school in Ukraine in 2023-2024, afterwards moved back to Germany to come back to MIS for Grade 9. Overall, in my lifetime, I lived in 4 different cities and switched schools 6 times.</p3>
+  </div>
+  
+  <div>
+    <h1 class="aldrich-regular" style="font-size: 35px; line-height: 32px">My educational interests <i class="fas fa-user-graduate" style="font-size:30px;"></i></h1>
+    <p3>Ambitious learning and good grades at school always meant a lot to me. The IB learning system strongly motivated me to become even more interested in studying and even encouraged me to start my own <a href="https://nastyashurma.wordpress.com/creativity-for-peace/" style="color: #7597de">charity project</a> for the Service as Action curriculum. I find all the lessons that I cover this year important, but I'm especially interested in mathemetics and sciences, together with design and computer science - I am likley to go into the area of either enginerring, business management, or marketing in future. </p3>
+  </div>
+    </div>
+    
+  <div class="sports">
+    <h1 class="aldrich-regular" style="font-size: 35px; line-height: 32px; color: #7597de">My sports carreer <i class="fas fa-medal" style="font-size:30px;"></i></h1>
+      <p3>Sport and athletics has always been a big part of my life. When I was 2-3 years old, I first tried skiing, which I've been doing every year ever since: sometimes with a coach or in a team, at other times simply alone as a hobby. At the age of 5, I started with Gymnastics - I actively and strictly trained every day and participated in many championships. At the age of 10 I quit it, and istead went into acrobatics, rollerscating, and later cheerleading for the next two years. Meanwhile I started my sailing carreer at the age of 7 and ambitiosly trained and participated in racing competitions until the age of 12. I additionally took tutoring lessons in chess for a few years since the age of 8 and attended tournaments. Moving to Germany made me give up on regular trainings in my previous sports, but I still managed to keep most of the important skills from them until now. At the age of 12, I wanted to start something new, so began playing badminton in a school club. Later I got excited about training professionally, so I joined a club soon and got consumed by serious trainings. I simultaneously decided to try volleyball and spent a year practicing in my school team in Ukraine. Badminton is currenyly the most interesting and exciting sport for me that I continue being actively engaged in nowadays - even with under 2 years of trainings, I already manage to participate in different kinds of competitions and achieve progressing results.</p3>
+  </div>
+    
+  
+  <div class="interests">
+    <h1 class="aldrich-regular" style="font-size: 35px; line-height: 32px">My hobbies and interests <i class="fas fa-icons" style="font-size:30px;"></i></h1>
+      <p3>Ever since young age, I was very passionate about art. I always enjoyed creative writing, drawing, painting, and crafts, and as a junior school student even spent most of my free time bringing to life my invention ideas through woodwork. Art is still a big interest of mine. Over the past few years, I was developing my skill of digital art, such as 2D drawing and painting, 2D frame-by-frame + rigging animation, video editing, 3D modeling, HTML and CSS webpage formatting, presentation design, and more. In 2023 and 2024, digital art was not only my hobby, but even a way of freelancing - as a social media artist, I worked on digital painted and animated commissions and additionally earned money on sponsorships. Some other ways of spending time I enjoy are painting and sketching on paper, playing boardgames, reading books, watching movies, and listening to music. My favorite genres of books and films are mostly Sci-fi, Thrillers, and Drama, and some of my favorite music bands / singers are Linkin Park, Eminem, and Imagine Dragons (I'm a fan of Hard Rock and Rap). <i class="fas fa-music" style="font-size:20px;"></i> I'm also fond of activities such as paddleboarding, paint-ball / laser-tag, and spending time in nature. <b>Don't forget - badminton is still my biggest hobby nowadays!</b></p3>
+  </div>
+    
+
+<head>
+    
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Jersey+15&family=Sigmar&display=swap" rel="stylesheet">
+    
+<style>
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: #7597df; 
+  font-family: serif;
+  border: 2px solid #7597df;
+  margin-left: 5px;
+}
+
+.button1:hover {
+  background-color: #7597df;
+  color: white;
+}
+   
+    
+    
+.button3 {
+  background-color: white; 
+  color: #352a2e; 
+  font-family: serif;
+  border: 2px solid #352a2e;
+  margin-left: 20px
+}
+
+.button3:hover {
+  background-color: #352a2e;
+  color: white;
+}
+    
+.resume {
+  background-color: #7597de;
+  padding: 10px;
+  text-align: center;
+}
+    
+    
+    
+</style>
+</head>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/f2a8c8693f.js" crossorigin="anonymous"></script>
+
+    
+    
+<body>
+    
+    
+    <div class="overall" style="border-width:3px; margin:8px">
+        
+<div class="resume">
+    <p2><i class="fas fa-id-card" style="font-size:24px"></i> This webpage additionally features my personal student resume,</p2>
+
+    <button class="button button3" onclick="myFunction()">Click this button to show and hide it! <i class="fas fa-arrow-down" style="font-size:18px;"></i> <i class="fas fa-arrow-up" style="font-size:18px;"></i></button>
+</div>
+    
+<div>
+<img src="https://raw.githubusercontent.com/AnastasiiaShurma/about/refs/heads/main/resume.png" id="myDIV" style="display:none"; width=100%>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+    </div>
+    </div>
+    
+
+<div class="overall">
+    
+<div class="interests" style="padding-top:5px; padding-bottom:5px">
+  <p>In the first place, this website was created as my Coding project with an aim of showcasing my HTML, CSS, and Javascript skills. Therefore, you might be interested in taking a look at smaller coding projects I was working on during the unit to study and practice different techniques.</p>
+</div>
+    
+<div class="codingnav">
+  <p2 ; style="color:white"><i class="fas fa-star" style="font-size:24px; color:white"></i> Below is the portfolio of my practice-webpages I created during the learning unit <i class="fas fa-star" style="font-size:24px; color:white"></i></p2>
+</div>
+
+<a href="https://anastasiiashurma.github.io/javascriptGraphScienceExperiment/" button class="button button1" style="font-size:20px">Javascript Practice - plotting a science experiment</a>
+<a href="https://anastasiiashurma.github.io/snowperson/" button class="button button1" style="font-size:20px">Javascript Practice - SnowPerson challenge</a>
+<a href="https://anastasiiashurma.github.io/colors/" button class="button button1" style="font-size:20px">CSS Practice - Color Sorting + Formatting</a>
+<a href="https://anastasiiashurma.github.io/gradCountdown/" button class="button button1" style="font-size:20px">Javascript Practice - Countdown to Graduation Day</a>
+    
+    
+</div>
+    
+    
+    
+    
+<head>
+<style>
+    
+.bibliography {
+  border: 5px solid #352a2e;
+  background-color: #fdeeec;    
+  text-align: left;
+  margin: 8px;
+  padding: 15px
+}
+    
+.inner {
+  background-color: white;    
+  text-align: left;
+  margin: 0px;
+  padding: 25px;
+  padding-top:10px
+}
+
+    
+.aldrich-regular {
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: #fc94d0;
+  line-height: 8px
+}
+
+</style>
+</head>
+    
+    
+    
+<div class="bibliography">
+<div class="inner">
+
+
+<h1 class="aldrich-regular" style="color: #7597de">Bibliography <i class="fas fa-book-open" style="font-size:30px;"></i></h1>
+    
+    
+<div>
+<p3>
+Coding tutorial platform I used to get ideas for the webpage design:
+</p3>
+</div>
+<div>
+<p3>
+<a href="https://www.w3schools.com/html/default.asp" style="color: #7597de">"HTML Tutorial." W3 Schools, www.w3schools.com/html/default.asp. Accessed 4 Mar.
+     2025.</a>
+</p3>
+</div>
+    
+<div>
+<p3>
+Pixel art GIF I used as a background image:
+</p3>
+</div>
+<div>
+<p3>
+<a href="https://tenor.com/search/pixel-art-landscape-gifs" style="color: #7597de">Pixel Art Landscape GIF. Tenor, tenor.com/search/pixel-art-landscape-gifs.
+     Accessed 4 Mar. 2025.</a>
+</p3>
+</div>
+    
+<div>
+<p3>
+Designing platform I used to create my resume:
+</p3>
+</div>
+<div>
+<p3>
+<a href="https://www.canva.com/" style="color: #7597de">Canva. www.canva.com/. Accessed 4 Mar. 2025.</a>
+</p3>
+</div> 
+
+<div>
+<p3>
+Font Awesome Icons used in Website's text:
+</p3>
+</div>
+<div>
+<p3>
+<a href="https://fontawesome.com/" style="color: #7597de">Font Awesome. fontawesome.com/. Accessed 4 Mar. 2025.</a>
+</p3>
+</div>   
+
+</div>
+</div>
+
+
+</body>
+
+</html>
